@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Actividades del libro eloquent JS">
+    <meta name="keywords" content="HTML, CSS, JavaScript, eloquent">
+    <meta name="author" content="Teresczuk Gabriel">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>♟</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <title>Tablero de Ajedrez</title>
+</head>
+<body>
+
+    <main>
+
+        <h1>Tablero de ajedrez </h1>
+
+        <p>
+            Escribe un programa que cree un string que represente una cuadrícula de 8 ×
+8, usando caracteres de nueva línea para separar las líneas. En cada posición
+de la cuadrícula hay un espacio o un carácter "#". Los caracteres deberían de
+formar un tablero de ajedrez.
+Pasar este string a console.log debería mostrar algo como esto:
+        </p>
+
+        <pre>
+ # # # #
+# # # #
+ # # # #
+# # # #
+ # # # #
+# # # #
+ # # # #
+# # # #  
+        </pre>
+
+        <p>
+
+            Cuando tengas un programa que genere este patrón, define una vinculación
+tamaño = 8 y cambia el programa para que funcione con cualquier tamaño,
+dando como salida una cuadrícula con el alto y ancho dados.
+        </p>
+
+        <hr>
+
+        <h2>Solución</h2>
+
+        <form action="" class="form" id="form">
+            <div>
+                <label for="alto">Alto :</label>
+                <input type="number" name="alto" id="alto" placeholder="8">
+            </div>
+            <div>
+                <label for="ancho">Ancho :</label>
+                <input type="number" name="ancho" id="ancho" placeholder="8">
+            </div>
+            <input type="submit" value="calcular">
+        </form>
+
+        <section class="solution" id="solution">
+
+            <div class="row">
+                <div class="col-w">a</div>
+                <div class="col-b">b</div>
+                <div class="col-w">c</div>
+                <div class="col-b">d</div>
+                <div class="col-w">a</div>
+                <div class="col-b">b</div>
+                <div class="col-w">c</div>
+                <div class="col-b">d</div>
+            </div>
+            <div class="row">
+                <div class="col-w">a</div>
+                <div class="col-b">b</div>
+                <div class="col-w">c</div>
+                <div class="col-b">d</div>
+                <div class="col-w">a</div>
+                <div class="col-b">b</div>
+                <div class="col-w">c</div>
+                <div class="col-b">d</div>
+            </div>
+
+        </section>
+
+        <p class="p_secundario">Ejercicio #3 Guia practica de Eloquent</p>
+
+    </main>
+    
+</body>
+</html>
+
+<script src="main.js"></script>
