@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Actividades del libro eloquent JS">
+    <meta name="keywords" content="HTML, CSS, JavaScript, eloquent">
+    <meta name="author" content="Teresczuk Gabriel">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🤸‍♂️</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <title>Recursividad</title>
+</head>
+<body>
+
+    <section class="border__color">
+        <main>
+            <h1>Recursión</h1>
+            <p>Hemos visto que % (el operador de residuo) se puede usar para probar si un
+                número es par o impar usando % 2 para ver si es divisible entre dos. Aquí hay
+                otra manera de definir si un número entero positivo es par o impar:</p>
+
+                <ul>
+                    <li>Zero es par</li>
+                    <li>Uno es impar</li>
+                    <li>Para cualquier otro número N, su paridad es la misma que N - 2</li>
+                </ul>
+
+            <p>Define una función recursiva esPar que corresponda a esta descripción. La
+                función debe aceptar un solo parámetro (un número entero, positivo) y devolver
+                un Booleano.</p>    
+
+            <p>Pruébalo con 50 y 75. Observa cómo se comporta con -1. Por qué? Puedes
+                pensar en una forma de arreglar esto?</p>    
+
+            <hr>
+
+            <h2>Solución</h2>
+
+            <form action="" id="form" class="form">
+                <p>Ingresa los valores que quieras comprobar.</p>
+                <div class="form--inputs">
+                    <label for="valor">Valor</label>
+                    <input type="number" name="valor" id="valor" placeholder="50" class="input">
+                    <input type="submit" value="calcular" class="submit">
+                </div>
+                <div id="solution">
+
+                </div>
+            </form>
+
+            <p class="p_secundario">Ejercicio #5 Guia practica de Eloquent</p>
+
+        </main>
+    </section>  
+    
+</body>
+</html>
+
+<script src="main.js"></script>

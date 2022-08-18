@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    min-height: 100%;
+    padding: 2rem;
+}
+
+.border__color{
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+
+    box-shadow: 0px 0px 5px 5px rgb(200, 80, 192,0.2);
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+main{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fafafa;
+    border-radius: 5px;
+    max-width: 800px;
+    padding: 3rem;
+    gap: 1rem;
+}
+
+hr{
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    width: 100%;
+    border: none;
+    height: 1px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form--inputs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.input{
+    padding: 5px;
+    border-radius: 5px;
+    border:2px solid #743ad5;
+}
+
+.submit{
+    padding: 5px;
+    border-radius: 5px;
+    border:2px solid #743ad5;
+    color: #743ad5;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.submit:hover{
+    color: white;
+    background-color: #743ad5;
+    cursor: pointer;
+}
+
+.p_secundario{
+    color: #969696;
+    text-align: center;
+    font-weight: 300;
+}
