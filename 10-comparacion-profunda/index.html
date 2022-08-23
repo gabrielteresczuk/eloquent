@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Actividades del libro eloquent JS">
+    <meta name="keywords" content="HTML, CSS, JavaScript, eloquent">
+    <meta name="author" content="Teresczuk Gabriel">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🎄</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <title>Comparacion Profunda</title>
+</head>
+<body>
+
+    <main>
+
+        <h1>Comparacion Profunda</h1>
+
+        <p>
+            El operador == compara objetos por identidad. Pero a veces preferirias comparar los valores de sus propiedades reales.
+        </p>
+
+        <p>
+            Escribe una función igualdadProfunda que toma dos valores y retorne true
+            solo si tienen el mismo valor o son objetos con las mismas propiedades, donde
+            los valores de las propiedades sean iguales cuando comparadas con una llamada
+            recursiva a igualdadProfunda.
+        </p>
+
+        <p>Para saber si los valores deben ser comparados directamente (usa el operador
+            == para eso) o si deben tener sus propiedades comparadas, puedes usar el
+            operador typeof. Si produce "object" para ambos valores, deberías hacer una
+            comparación profunda. Pero tienes que tomar una excepción tonta en cuenta:
+            debido a un accidente histórico, typeof null también produce "object".
+            La función Object.keys será útil para cuando necesites revisar las propiedades
+            de los objetos para compararlos.</p>
+
+        <hr>
+
+        <article>
+            <h2>Solución</h2>
+
+            <form id="form">
+                <fieldset>
+                    <legend>Campos</legend>
+                    <input type="text" name="obj1" placeholder="{here: {is: 'an'}, object: 2}" class="campo" id="obj1">
+                    <input type="text" name="obj2" placeholder="{here: {is: 'an'}, object: 3}" class="campo" id="obj2">
+                    <input type="submit" value="Convertir" class="submit">
+                </fieldset>
+            </form>
+
+            <div id="solution">
+            </div>
+
+        </article>
+
+        <footer>
+            Ejercicio #9 Guia practica de Eloquent
+        </footer>
+
+    </main>
+    
+</body>
+</html>
+
+<script src="main.js"></script>

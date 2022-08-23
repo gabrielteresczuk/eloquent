@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Actividades del libro eloquent JS">
+    <meta name="keywords" content="HTML, CSS, JavaScript, eloquent">
+    <meta name="author" content="Teresczuk Gabriel">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🥗</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <title>Suma de Rangos</title>
+</head>
+<body>
+
+    <main>
+
+        <h1>SUMA DE RANGOS</h1>
+
+        <p>La introducción de este libro aludía a lo siguiente como una buena forma de
+            calcular la suma de un rango de números:
+            console.log(suma(rango(1, 10)));
+        </p>
+        <p>
+            Como una misión extra, modifica tu función rango para tomar un tercer
+            argumento opcional que indique el valor de “paso” utilizado para cuando construyas el array. Si no se da ningún paso, los elementos suben en incrementos
+            de uno, correspondiedo al comportamiento anterior.
+        </p>
+
+        <hr>
+
+        <article>
+            <h2>Solución</h2>
+
+            <form id="form">
+                <fieldset>
+                    <legend>Campos</legend>
+                    <input type="number" name="inicio" placeholder="inicio" class="campo" id="inicio">
+                    <input type="number" name="final" placeholder="final" class="campo" id="final">
+                    <input type="number" name="paso" placeholder="paso" class="campo" id="paso">
+                    <input type="submit" value="Calcular" class="submit">
+                </fieldset>
+            </form>
+
+            <div id="solution">
+            </div>
+
+        </article>
+
+        <footer>
+            Ejercicio #7 Guia practica de Eloquent
+        </footer>
+
+    </main>
+    
+</body>
+</html>
+
+<script src="main.js"></script>
