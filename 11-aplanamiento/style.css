@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+
+    background-image: url('./circle.svg'),linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+
+main{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    max-width: 800px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+}
+
+h1{
+    text-align: center;
+    font-size: 72px;
+    background: -webkit-linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2{
+    text-align: center; 
+    font-size: 36px;
+    background: -webkit-linear-gradient(160deg,#80D0C7  0%, #0093E9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+hr{
+    background-color: #0093E9;
+    width: 100%;
+    border: none;
+    height: 1px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #61c6ff;
+    border-radius: 6px;
+    font-size: 1.2rem;
+}
+
+#solution{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+footer{
+    color: #969696;
+    text-align: center;
+    font-weight: 300;
+}
+
+.input{
+    padding: 5px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    border: 0px;
+    outline: none;
+    border-bottom: 2px solid #0093E9;
+    font-size: 1.2rem;
+}
+
+.input:focus{
+    background-color: white;
+}
+
+
+.btn{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    border: 0px;
+    border-bottom: 2px solid #0093E9;
+    color: #0093E9;
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all ease 0.5s;
+
+}
+
+.btn:hover{
+    background-color: #0093E9;
+    color: white;
+
+}
