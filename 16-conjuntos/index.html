@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Actividades del libro eloquent JS">
+    <meta name="keywords" content="HTML, CSS, JavaScript, eloquent">
+    <meta name="author" content="Teresczuk Gabriel">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🎢</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <title>Conjuntos</title>
+</head>
+<body>
+
+    <main>
+
+        <h1>CONJUNTOS</h1>
+
+        <p>El entorno de JavaScript estándar proporciona otra estructura de datos llamada
+            Set (“Conjunto”). Al igual que una instancia de Map, un conjunto contiene una
+            colección de valores. Pero a diferencia de Map, este no asocia valores con otros—
+            este solo rastrea qué valores son parte del conjunto. Un valor solo puede ser
+            parte de un conjunto una vez—agregarlo de nuevo no tiene ningún efecto.</p>
+        <p>
+            Escribe una clase llamada Conjunto. Como Set, debe tener los métodos
+            add (“añadir”), delete (“eliminar”), y has (“tiene”). Su constructor crea un
+            conjunto vacío, añadir agrega un valor al conjunto (pero solo si no es ya un
+            miembro), eliminar elimina su argumento del conjunto (si era un miembro) y
+            tiene retorna un valor booleano que indica si su argumento es un miembro del
+            conjunto.
+        </p>
+        <p>
+            Usa el operador ===, o algo equivalente como indexOf, para determinar si
+            dos valores son iguales.
+        </p>
+        <p>
+            Proporcionale a la clase un método estático desde que tome un objeto iterable
+            como argumento y cree un grupo que contenga todos los valores producidos al
+            iterar sobre el.
+        </p>
+
+        <hr>
+
+        <h2>SOLUCION</h2>
+        
+        <article>
+            <form id="form">
+
+                    <label for="valor">Grupo: </label>
+                    <input type="text" name="desde" id="desde" placeholder="1,2,3,4,5" class="input">
+
+                <input type="submit" value="enviar" class="btn">
+            </form>
+
+            
+            <div id="solution"></div>
+        </article>
+
+        <footer>
+            Ejercicio #16 Guia practica de Eloquent
+        </footer>
+
+    </main>
+    
+</body>
+</html>
+
+<script src="main.js"></script>

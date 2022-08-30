@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;   
+    background-color: #FBAB7E;
+    background-image: url('./waves.svg'),linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+
+}
+
+main{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    max-width: 800px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+}
+
+h1{
+    text-align: center;
+    font-size: 54px;
+    color: #4FACF7 ;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+}
+
+h2{
+    text-align: center; 
+    font-size: 36px;
+    color: #4FACF7 ;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+}
+
+
+hr{
+    background-color: #4FACF7;
+    width: 100%;
+    border: none;
+    height: 1px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #4FACF738;
+    border: 2px solid #4FACF7;
+    border-radius: 6px;
+    font-size: 1.2rem;
+}
+
+#solution{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+footer{
+    color: #969696;
+    text-align: center;
+    font-weight: 300;
+}
+
+.input{
+    padding: 5px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    border: 0px;
+    outline: none;
+    border: 2px solid #4FACF7;
+    font-size: 1.2rem;
+    width: 150px;
+}
+
+.input:focus{
+    background-color: white;
+}
+
+
+.btn{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    border: 0px;
+    border: 2px solid #4FACF7;
+    color: #4FACF7;
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all ease 0.5s;
+
+}
+
+.btn:hover{
+    background-color: #4FACF7;
+    color: white;
+
+}

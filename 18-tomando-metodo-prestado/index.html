@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Actividades del libro eloquent JS">
+    <meta name="keywords" content="HTML, CSS, JavaScript, eloquent">
+    <meta name="author" content="Teresczuk Gabriel">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🍤</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <title>Tomando un metodo prestado</title>
+</head>
+<body>
+
+    <main>
+
+        <h1>TOMANDO UN METODO PRESTADO</h1>
+
+        <p>Anteriormente en el capítulo mencioné que el metodo hasOwnProperty de un
+            objeto puede usarse como una alternativa más robusta al operador in cuando
+            quieras ignorar las propiedades del prototipo. Pero, ¿y si tu mapa necesita
+            incluir la palabra "hasOwnProperty"? Ya no podrás llamar a ese método ya
+            que la propiedad del objeto oculta el valor del método.</p>
+        <p>
+            ¿Puedes pensar en una forma de llamar hasOwnProperty en un objeto que
+            tiene una propia propiedad con ese nombre?
+        </p>
+
+        <hr>
+
+        <h2>SOLUCION</h2>
+        <p class="guia"><strong>{one: true, two: true, hasOwnProperty: true}</strong></p>
+        <article>
+            <form id="form">
+
+                    <label for="valor">propiedad: </label>
+                    <input type="text" name="prop" id="prop" placeholder="hasOwnProperty" class="input">
+
+                <input type="submit" value="enviar" class="btn">
+            </form>
+
+            
+            <div id="solution"></div>
+        </article>
+
+        <footer>
+            Ejercicio #18 Guia practica de Eloquent
+        </footer>
+
+    </main>
+    
+</body>
+</html>
+
+<script src="main.js"></script>

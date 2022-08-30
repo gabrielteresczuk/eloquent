@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Actividades del libro eloquent JS">
+    <meta name="keywords" content="HTML, CSS, JavaScript, eloquent">
+    <meta name="author" content="Teresczuk Gabriel">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🥽</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <title>Un Tipo Vector</title>
+</head>
+<body>
+
+    <main>
+
+        <h1>UN TIPO VECTOR</h1>
+
+        <p>Escribe una clase Vec que represente un vector en un espacio de dos dimensiones. Toma los parámetros (numericos) x y y, que debería guardar como
+            propiedades del mismo nombre.</p>
+        <p>
+            Dale al prototipo de Vector dos métodos, mas y menos, los cuales toman
+otro vector como parámetro y retornan un nuevo vector que tiene la suma o
+diferencia de los valores x y y de los dos vectores (this y el parámetro).
+        </p>
+        <p>Agrega una propiedad getter llamada longitud al prototipo que calcule la
+            longitud del vector—es decir, la distancia del punto (x, y) desde el origen (0,
+            0).</p>
+
+        <hr>
+
+        <h2>SOLUCION</h2>
+        
+        <article>
+            <form id="form">
+                <div>
+                    <label for="valor">Vector 1 X: </label>
+                    <input type="number" name="x1" id="x1" placeholder="1" class="input">
+                    <label for="valor">Vector 1 Y: </label>
+                    <input type="number" name="y1" id="y1" placeholder="2" class="input">
+                </div>
+                <div>
+                    <label for="valor">Vector 2 X: </label>
+                    <input type="number" name="x2" id="x2" placeholder="2" class="input">
+                    <label for="valor">Vector 2 Y: </label>
+                    <input type="number" name="y2" id="y2" placeholder="3" class="input">
+                </div>
+
+                <input type="submit" value="enviar" class="btn">
+            </form>
+
+            
+            <div id="solution"></div>
+        </article>
+
+        <footer>
+            Ejercicio #14 Guia practica de Eloquent
+        </footer>
+
+    </main>
+    
+</body>
+</html>
+
+<script src="main.js"></script>
